@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var czyNapis = true
-
+        //
         findViewById<Button>(R.id.buttonForKiev).setOnClickListener {
             if (czyNapis==true) {
                 findViewById<Button>(R.id.buttonForKiev).text = "Zmienione"
